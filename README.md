@@ -1,4 +1,5 @@
-# Date :
+# Date :22/10/2026
+### name:Avinash R
 ## Ex.-No-2-Interconnecting-Two-LANs-Using-a-Router-Basic-Router-Configuration
 
 
@@ -13,6 +14,8 @@ ________________________________________
 •	Straight-through cables<br>
 ________________________________________
 # Network Topology Diagram
+<img width="1600" height="1000" alt="image" src="https://github.com/user-attachments/assets/519cb206-44c9-4191-ab34-80642c642fd6" />
+
  Description:<br>
 •	PC0 → Switch0 → Router (FastEthernet0/0)<br>
 •	PC1 → Switch1 → Router (FastEthernet0/1)<br>
@@ -52,9 +55,14 @@ Router(config-if)# ip address 192.168.2.1 255.255.255.0<br>
 Router(config-if)# no shutdown<br>
 ________________________________________
 # Output (Screenshots)
-•	Router CLI configuration<br>
-•	IP configurations on PCs<br>
-•	Successful ping between PC0 and PC1<br>
+<img width="1600" height="1000" alt="image" src="https://github.com/user-attachments/assets/d675cb27-87f5-4baf-afed-e7c33bcf6931" />
+<img width="1600" height="1000" alt="image" src="https://github.com/user-attachments/assets/696eeedc-5882-40b7-a275-0b343812a2e7" />
+<img width="1600" height="1000" alt="image" src="https://github.com/user-attachments/assets/f292dde9-b68a-41a6-a119-cbd5ac54dde3" />
+<img width="1600" height="1000" alt="image" src="https://github.com/user-attachments/assets/1fe742b7-1e90-43bd-964a-2bfdab3ad8cc" />
+<img width="1600" height="1000" alt="image" src="https://github.com/user-attachments/assets/fa1a3661-03ec-4203-8a46-e18bd8ff5917" />
+<img width="1600" height="1000" alt="image" src="https://github.com/user-attachments/assets/5ef1b7fc-0cde-4a70-91c6-d137b70a4698" />
+<img width="1600" height="1000" alt="image" src="https://github.com/user-attachments/assets/74111974-d13f-403d-9517-3cd9ed02b916" />
+
 ________________________________________
 # Result
 Successfully configured a router to connect two LANs. Communication between PC0 and PC1 across different networks was tested and verified.
